@@ -1,0 +1,10 @@
+---
+title: "CSCI 335 Notes"
+author:
+  - "Anton Goretsky"
+  - "Ralph Vente"
+toc: true
+header-includes: |
+   \usepackage{tikz}
+   \usepackage{pgfplots}
+---
