@@ -33,12 +33,13 @@ $$T(N) = O(log(n))$$
 
 Compute $X^N$ for positive N
 
-$$\begin{align*}
-X^0 & = 1\\
-X^1 & = X\\
-X^N & = (X^{(N/2)^2}), & \text{EVEN} \\
-X^N & = (X^{(N-1/2)^2}), & \text{ODD}\\
-\end{align*}$$
+\begin{align*}
+\left.\begin{aligned} X^0 & = 1\\
+X^1 & = X\\\end{aligned}\right\} & \text{Base Case}\\
+\left.\begin{aligned}
+X^N & = (X^{(N/2)^2}), \end{aligned}\right\} & \text{EVEN} \\
+\left.\begin{aligned} X^N & = (X^{(N-1/2)^2}) \end{aligned}\right\} & \text{ODD}\\
+\end{align*}
 
 #### Polynomial Evaluation
 

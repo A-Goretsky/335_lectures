@@ -4,6 +4,7 @@ author:
   - "Anton Goretsky"
   - "Ralph Vente"
 toc: true
+toc-depth: 4
 header-includes: |
    \usepackage{tikz}
    \usepackage{pgfplots}
